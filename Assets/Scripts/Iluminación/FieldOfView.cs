@@ -30,8 +30,8 @@ public class FieldOfView : MonoBehaviour
 
     void Update()
     {
-        MeshGenerator();
         SetOrigin(target.position);
+        MeshGenerator();
     }
 
     void MeshGenerator()

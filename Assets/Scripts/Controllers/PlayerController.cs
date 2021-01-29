@@ -5,10 +5,15 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] float speed;
     public bool isKeyboardControl;
-
+    public Vector2 lastFaceDirection;
+    public FieldOfView fov;
+    public FieldOfView baseFov;
+        
     Rigidbody2D rb;
     Vector2 direction;
 
+    public float RbForce => rb.velocity.magnitude;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -48,6 +53,9 @@ public class PlayerController : MonoBehaviour
         }
         
         direction = new Vector2(x, y);
+        
+        UpdateLastFaceDirection(x, y);
+
     }
 
     #region Controller
@@ -90,5 +98,16 @@ public class PlayerController : MonoBehaviour
             return -1;
 
         return 0;
+    }
+    
+    void UpdateLastFaceDirection(float x, float y)
+    {
+        if(x != 0 || y != 0)
+        {
+            if(Mathf.Abs(x) > Mathf.Abs(y)) 
+                lastFaceDirection = x > 0 ? new Vector2(1, 0) : new Vector2(-1, 0);
+            if(Mathf.Abs(x) < Mathf.Abs(y)) 
+                lastFaceDirection = y > 0 ? new Vector2(0, 1) : new Vector2(0, -1);
+        }
     }
 }
