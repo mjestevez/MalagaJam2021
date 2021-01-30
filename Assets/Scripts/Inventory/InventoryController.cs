@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Scripts.Inventory;
 using UnityEngine;
@@ -11,6 +10,8 @@ public class InventoryController : MonoBehaviour
     [SerializeField] InventoryPresenter presenter;
     [SerializeField] int numItemsMax=6;
     [SerializeField] Item initialLanter;
+
+    Gamepad device;
 
     Item CurrentItem
     {
@@ -41,12 +42,23 @@ public class InventoryController : MonoBehaviour
     
     void Update()
     {
+        GetControllerType();
         isCurrentItemNull = CurrentItem==null;
         CheckNavigationInputs();
         CheckThrowInputs();
         CheckUseInputs();
     }
 
+    void GetControllerType()
+    {
+        if(Gamepad.all.Count > playerController.playerID)
+        {
+            device = Gamepad.all[playerController.playerID];
+            isKeyboardControl = false;
+        }
+        else
+            isKeyboardControl = true;
+    }
     #region Use
     void CheckUseInputs()
     {
@@ -56,10 +68,7 @@ public class InventoryController : MonoBehaviour
 
     void ManageGamepadUseInputs()
     {
-        if(Gamepad.current==null)
-            return;
-
-        if(Gamepad.current.aButton.wasPressedThisFrame)
+        if(device.aButton.wasPressedThisFrame)
             UseCurrentItem();
     }
 
@@ -81,12 +90,8 @@ public class InventoryController : MonoBehaviour
 
     void ManageGamepadThrowInputs()
     {
-        if(Gamepad.current==null)
-            return;
-
-        if(Gamepad.current.xButton.wasPressedThisFrame)
+        if(device.xButton.wasPressedThisFrame)
             ThrowCurrentItem();
-
     }
 
     void ThrowCurrentItem()
@@ -116,12 +121,9 @@ public class InventoryController : MonoBehaviour
 
     void ManageGamepadNavigationInputs()
     {
-        if(Gamepad.current==null)
-            return;
-        
-        if(Gamepad.current.leftShoulder.wasPressedThisFrame)
+        if(device.leftShoulder.wasPressedThisFrame)
             SelectNewObject(false);
-        if(Gamepad.current.rightShoulder.wasPressedThisFrame)
+        if(device.rightShoulder.wasPressedThisFrame)
             SelectNewObject(true);
     }
 

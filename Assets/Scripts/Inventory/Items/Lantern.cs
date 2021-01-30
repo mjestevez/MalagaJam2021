@@ -11,13 +11,22 @@ namespace Scripts.Inventory
 
         void Awake()
         {
-            fov = FindObjectOfType<PlayerController>().fov.gameObject;
-            baseFov = FindObjectOfType<PlayerController>().baseFov.gameObject;
+            UpdateFovReferences();
         }
-
+        void UpdateFovReferences()
+        {
+            var controller = GetComponentInParent<PlayerController>();
+            if(controller != null)
+            {
+                fov = controller.fov.gameObject;
+                baseFov = controller.baseFov.gameObject;
+            }
+            
+        }
         public override void PickUp(Transform target, bool isCurentSelected)
         {
             base.PickUp(target, isCurentSelected);
+            UpdateFovReferences();
             if(isCurentSelected) 
                 SelectItem();
         }

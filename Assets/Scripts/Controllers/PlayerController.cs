@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public int playerID;
     [SerializeField] float speed;
     public bool isKeyboardControl;
     public Vector2 lastFaceDirection;
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour
         
     Rigidbody2D rb;
     Vector2 direction;
+    static Gamepad device;
 
     public float RbForce => rb.velocity.magnitude;
     
@@ -22,7 +24,19 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        GetControllerType();
         CheckControllers();
+    }
+
+    void GetControllerType()
+    {
+        if(Gamepad.all.Count > playerID)
+        {
+            device = Gamepad.all[playerID];
+            isKeyboardControl = false;
+        }
+        else
+            isKeyboardControl = true;
     }
 
     void FixedUpdate()
@@ -61,18 +75,12 @@ public class PlayerController : MonoBehaviour
     #region Controller
     static float CheckVerticalAxis()
     {
-        if(Gamepad.current==null)
-            return 0;
-
-        return Gamepad.current.leftStick.y.ReadValue();
+        return device.leftStick.y.ReadValue();
     }
 
     static float CheckHorizontalAxis()
     {
-        if(Gamepad.current==null)
-            return 0;
-        
-        return Gamepad.current.leftStick.x.ReadValue();
+        return device.leftStick.x.ReadValue();
     }
     #endregion
 
