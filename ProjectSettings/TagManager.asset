@@ -43,3 +43,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Suelo
+    uniqueID: 2761736879
+    locked: 0
+  - name: Pared
+    uniqueID: 2572786885
+    locked: 0
+  - name: Decorativo
+    uniqueID: 4228613933
+    locked: 0
+  - name: Objetos
+    uniqueID: 2822473835
+    locked: 0
+  - name: Player
+    uniqueID: 1323457473
+    locked: 0

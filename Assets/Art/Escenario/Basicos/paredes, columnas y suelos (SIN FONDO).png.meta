@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: f83e3b86737d21f47800ef580776c897
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4869193430014332433
+    second: paredes, columnas y suelos (SIN FONDO)_0
+  - first:
+      213: 8667760640176383386
+    second: paredes, columnas y suelos (SIN FONDO)_1
+  - first:
+      213: -3775967307437099667
+    second: paredes, columnas y suelos (SIN FONDO)_2
+  - first:
+      213: -4070519315432289175
+    second: paredes, columnas y suelos (SIN FONDO)_3
+  - first:
+      213: -5799186313643030863
+    second: paredes, columnas y suelos (SIN FONDO)_4
+  - first:
+      213: -8029896374240760194
+    second: paredes, columnas y suelos (SIN FONDO)_5
+  - first:
+      213: 734043652110557777
+    second: paredes, columnas y suelos (SIN FONDO)_6
+  - first:
+      213: -4515008840975486801
+    second: paredes, columnas y suelos (SIN FONDO)_7
+  - first:
+      213: 3218148369967576175
+    second: paredes, columnas y suelos (SIN FONDO)_8
+  - first:
+      213: 1591001338218715341
+    second: paredes, columnas y suelos (SIN FONDO)_9
+  - first:
+      213: -5470465021699772548
+    second: paredes, columnas y suelos (SIN FONDO)_10
+  - first:
+      213: -7990353291929407166
+    second: paredes, columnas y suelos (SIN FONDO)_11
+  - first:
+      213: 7957536231711051941
+    second: paredes, columnas y suelos (SIN FONDO)_12
+  - first:
+      213: 7053282824805815754
+    second: paredes, columnas y suelos (SIN FONDO)_13
+  - first:
+      213: 7000357795076145700
+    second: paredes, columnas y suelos (SIN FONDO)_14
+  - first:
+      213: -179613064838474306
+    second: paredes, columnas y suelos (SIN FONDO)_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_0
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1491
+        width: 591
+        height: 592
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1745d9f562d6cb0800000000000000
+      internalID: -4869193430014332433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_1
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1591
+        width: 590
+        height: 590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9563d3e0621a4870800000000000000
+      internalID: 8667760640176383386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1053
+        width: 675
+        height: 322
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cca48cf3c9287c0800000000000000
+      internalID: -4070519315432289175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_5
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 952
+        width: 589
+        height: 590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7eae26bac3109090800000000000000
+      internalID: -8029896374240760194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_6
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 951
+        width: 591
+        height: 592
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1522eadffc8df2a00800000000000000
+      internalID: 734043652110557777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 563
+        width: 590
+        height: 322
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f647b6a54e829ac20800000000000000
+      internalID: 3218148369967576175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_9
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 302
+        width: 88
+        height: 590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc892b1a94f541610800000000000000
+      internalID: 1591001338218715341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_10
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 302
+        width: 68
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fa269eb010514b0800000000000000
+      internalID: -5470465021699772548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_11
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 302
+        width: 591
+        height: 591
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241bca404009c1190800000000000000
+      internalID: -7990353291929407166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_12
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 303
+        width: 590
+        height: 589
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0107aba09de6e60800000000000000
+      internalID: 7957536231711051941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes, columnas y suelos (SIN FONDO)_15
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 72
+        width: 88
+        height: 323
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb598418ed2e18df0800000000000000
+      internalID: -179613064838474306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
