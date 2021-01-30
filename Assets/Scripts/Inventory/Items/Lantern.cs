@@ -6,6 +6,7 @@ namespace Scripts.Inventory
     {
         GameObject fov;
         GameObject baseFov;
+        GameObject itemFov;
 
         bool isActive;
 
@@ -21,22 +22,31 @@ namespace Scripts.Inventory
                 fov = controller.fov.gameObject;
                 baseFov = controller.baseFov.gameObject;
             }
+
+            if(itemFov == null)
+            {
+                itemFov = GetComponentInChildren<FieldOfView>().gameObject;
+                itemFov.transform.SetParent(null);
+                itemFov.transform.position= Vector3.zero;
+                itemFov.gameObject.SetActive(false);
+            }
             
         }
         public override void PickUp(Transform target, bool isCurentSelected)
         {
             base.PickUp(target, isCurentSelected);
             UpdateFovReferences();
+            itemFov.gameObject.SetActive(false);
             if(isCurentSelected) 
                 SelectItem();
         }
 
-        public override void Use()
+        public override bool Use()
         {
-            base.Use();
             var active = fov.activeInHierarchy;
             ActivateFOV(!active);
             isActive = !active;
+            return true;
         }
 
         public override void SelectItem()
@@ -49,6 +59,7 @@ namespace Scripts.Inventory
         {
             base.Throw(direction, rbForce);
             ActivateFOV(false);
+            itemFov.gameObject.SetActive(isActive);
         }
 
         void ActivateFOV(bool active)

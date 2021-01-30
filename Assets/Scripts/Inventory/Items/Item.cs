@@ -6,9 +6,10 @@ namespace Scripts.Inventory
 {
     public abstract class Item : MonoBehaviour
     {
-        [SerializeField] float force = 2f;
-        [SerializeField] float cooldown = 0.5f;
+        [SerializeField] float force = 5f;
+        [SerializeField] float cooldown = 0.1f;
         public Sprite image;
+        public bool isSingleUse;
 
         Rigidbody2D rb;
         
@@ -25,7 +26,11 @@ namespace Scripts.Inventory
         }
 
         public virtual void SelectItem(){}
-        public virtual void Use() {}
+
+        public virtual bool Use()
+        {
+            return true;
+        }
 
         public virtual void Throw(Vector3 direction, float rbForce)
         {

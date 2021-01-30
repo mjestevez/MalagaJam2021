@@ -1,4 +1,5 @@
 ﻿using System;
+using DG.Tweening;
 using UnityEngine;
 
 public class FieldOfView : MonoBehaviour
@@ -11,6 +12,8 @@ public class FieldOfView : MonoBehaviour
     [SerializeField] float visionDistance = 8f;
     [SerializeField] float wallVisionFactor;
     [SerializeField] LayerMask layerMask;
+    [SerializeField] float lightVariationPercent=0.05f;
+    [SerializeField] float lightVariationDuration=3f;
     
     Mesh mesh;
     Vector3 origin;
@@ -26,6 +29,8 @@ public class FieldOfView : MonoBehaviour
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
         origin = Vector3.zero;
+        DOTween.To(() => visionDistance, x => visionDistance = x, visionDistance - (visionDistance * lightVariationPercent), lightVariationDuration)
+            .SetEase(Ease.InOutQuad).SetLoops(-1, LoopType.Yoyo).Play();
     }
 
     void Update()

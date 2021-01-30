@@ -6,10 +6,10 @@ using UnityEngine.InputSystem;
 
 public class InventoryController : MonoBehaviour
 {
-    public bool isKeyboardControl;
+    bool isKeyboardControl;
     [SerializeField] InventoryPresenter presenter;
     [SerializeField] int numItemsMax=6;
-    [SerializeField] Item initialLanter;
+    [SerializeField] LayerMask interactableMask;
 
     Gamepad device;
 
@@ -26,7 +26,6 @@ public class InventoryController : MonoBehaviour
 
     void Start()
     {
-        initialLanter = Instantiate(initialLanter);
         items = new List<Item>(numItemsMax)
         {
             null,
@@ -36,8 +35,6 @@ public class InventoryController : MonoBehaviour
             null,
             null
         };
-        AddNewItem(initialLanter);
-        items.First().Use();
     }
     
     void Update()
@@ -47,6 +44,37 @@ public class InventoryController : MonoBehaviour
         CheckNavigationInputs();
         CheckThrowInputs();
         CheckUseInputs();
+        CheckInteractionInputs();
+    }
+
+    void CheckInteractionInputs()
+    {
+        if(!isKeyboardControl)
+            ManageGamepadInteractionInputs();
+    }
+
+    void ManageGamepadInteractionInputs()
+    {
+        if(device.yButton.wasPressedThisFrame)
+        {
+            var hit = Physics2D.OverlapCircle(transform.position, 0.1f,interactableMask);
+            if(hit != null && hit.GetComponent<Rock>() != null)
+                hit.GetComponent<Rock>().Push(CalculateDirection(hit.transform.position));
+                
+        }
+    }
+
+    Vector2 CalculateDirection(Vector3 hit)
+    {
+        var direction = hit - transform.position;
+        var x = direction.x;
+        var y = direction.y;
+        if(Mathf.Abs(x) > Mathf.Abs(y))
+        {
+            return x > 0 ? new Vector2(1, 0) : new Vector2(-1, 0);
+        }
+        else
+            return y > 0 ? new Vector2(0, 1) : new Vector2(0, -1);
     }
 
     void GetControllerType()
@@ -76,8 +104,10 @@ public class InventoryController : MonoBehaviour
     {
         if(isCurrentItemNull)
             return;
-        
-        CurrentItem.Use();
+
+        if(CurrentItem.Use() && CurrentItem.isSingleUse) 
+            presenter.RemoveCurrentItem();
+
     }
     #endregion
 

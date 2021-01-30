@@ -5,11 +5,11 @@ public class PlayerController : MonoBehaviour
 {
     public int playerID;
     [SerializeField] float speed;
-    public bool isKeyboardControl;
     public Vector2 lastFaceDirection;
     public FieldOfView fov;
     public FieldOfView baseFov;
         
+    bool isKeyboardControl;
     Rigidbody2D rb;
     Vector2 direction;
     static Gamepad device;
