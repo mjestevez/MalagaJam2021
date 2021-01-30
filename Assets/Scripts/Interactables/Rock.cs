@@ -1,4 +1,5 @@
 ﻿using DG.Tweening;
+using Interactables;
 using UnityEngine;
 
 public class Rock : MonoBehaviour
@@ -35,5 +36,5 @@ public class Rock : MonoBehaviour
         raycastHit2D = Physics2D.Raycast(transform.position, direction, maxDistance, collisionMask);
         return canPush && raycastHit2D.collider == null;
     }
-
+    
 }

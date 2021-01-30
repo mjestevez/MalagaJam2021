@@ -36,4 +36,9 @@ public class InventoryPresenter : MonoBehaviour
     {
         inventoryViews[currentSelectedIndex].SetObjectImage(null);
     }
+
+    public void RemoveItem(int index)
+    {
+        inventoryViews[index].SetObjectImage(null);
+    }
 }

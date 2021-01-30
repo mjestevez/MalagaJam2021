@@ -18,4 +18,12 @@ public class Key : Item
 
         return false;
     }
+    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        var rb = GetComponent<Rigidbody2D>();
+        if(other.gameObject.CompareTag("Wall")) 
+            rb.velocity = -rb.velocity;
+
+    }
 }

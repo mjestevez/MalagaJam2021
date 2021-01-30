@@ -4,25 +4,17 @@ namespace Scripts.Inventory
 {
     public class Lantern : Item
     {
-        GameObject fov;
-        GameObject baseFov;
         GameObject itemFov;
 
         bool isActive;
 
         void Awake()
         {
-            UpdateFovReferences();
+            UpdateFovItem();
         }
-        void UpdateFovReferences()
-        {
-            var controller = GetComponentInParent<PlayerController>();
-            if(controller != null)
-            {
-                fov = controller.fov.gameObject;
-                baseFov = controller.baseFov.gameObject;
-            }
 
+        void UpdateFovItem()
+        {
             if(itemFov == null)
             {
                 itemFov = GetComponentInChildren<FieldOfView>().gameObject;
@@ -30,12 +22,12 @@ namespace Scripts.Inventory
                 itemFov.transform.position= Vector3.zero;
                 itemFov.gameObject.SetActive(false);
             }
-            
         }
+
         public override void PickUp(Transform target, bool isCurentSelected)
         {
             base.PickUp(target, isCurentSelected);
-            UpdateFovReferences();
+            UpdateFovItem();
             itemFov.gameObject.SetActive(false);
             if(isCurentSelected) 
                 SelectItem();
@@ -51,7 +43,7 @@ namespace Scripts.Inventory
 
         public override void SelectItem()
         {
-            base.SelectItem();
+            UpdateFovItem();
             ActivateFOV(isActive);
         }
 
@@ -61,11 +53,13 @@ namespace Scripts.Inventory
             ActivateFOV(false);
             itemFov.gameObject.SetActive(isActive);
         }
-
-        void ActivateFOV(bool active)
+        
+        void OnTriggerEnter2D(Collider2D other)
         {
-            fov.SetActive(active);
-            baseFov.SetActive(!active);
+            var rb = GetComponent<Rigidbody2D>();
+            if(other.gameObject.CompareTag("Wall")) 
+                rb.velocity = -rb.velocity;
+
         }
         
     }

@@ -60,7 +60,8 @@ public class InventoryController : MonoBehaviour
             var hit = Physics2D.OverlapCircle(transform.position, 0.1f,interactableMask);
             if(hit != null && hit.GetComponent<Rock>() != null)
                 hit.GetComponent<Rock>().Push(CalculateDirection(hit.transform.position));
-                
+            if(hit != null && hit.GetComponent<Needs>() != null)
+                hit.GetComponent<Needs>().SupplyNeeds(this);
         }
     }
 
@@ -133,6 +134,15 @@ public class InventoryController : MonoBehaviour
         RemoveSelectedItem();
     }
 
+    public void RemoveAllItems(Item item)
+    {
+        var indexs = items.Where(i => i!=null && i.GetType() == item.GetType()).Select(i => items.IndexOf(i)).ToList();
+        foreach(var i in indexs)
+        {
+            items[i] = null;
+            presenter.RemoveItem(i);
+        }
+    }
     void RemoveSelectedItem()
     {
         CurrentItem = null;
@@ -186,6 +196,11 @@ public class InventoryController : MonoBehaviour
         items[index] = item;
         presenter.AddNewObject(index, item.image);
         item.PickUp(transform, index==presenter.CurrentSelectedIndex);
+    }
+
+    public List<Item> FindItemsInInventory(Item item)
+    {
+        return items.Where(i => i!=null && i.GetType() == item.GetType()).ToList();
     }
     
 }

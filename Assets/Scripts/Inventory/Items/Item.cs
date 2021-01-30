@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
 namespace Scripts.Inventory
 {
@@ -10,12 +9,16 @@ namespace Scripts.Inventory
         [SerializeField] float cooldown = 0.1f;
         public Sprite image;
         public bool isSingleUse;
+        
+        protected GameObject fov;
+        protected GameObject baseFov;
 
         Rigidbody2D rb;
         
         void Start()
         {
             rb = GetComponent<Rigidbody2D>();
+            UpdateFovReferences();
         }
         
         public virtual void PickUp(Transform target, bool isCurrentSelected)
@@ -25,7 +28,10 @@ namespace Scripts.Inventory
             gameObject.SetActive(false);
         }
 
-        public virtual void SelectItem(){}
+        public virtual void SelectItem()
+        {
+            ActivateFOV(false);
+        }
 
         public virtual bool Use()
         {
@@ -47,20 +53,32 @@ namespace Scripts.Inventory
                 rb = GetComponent<Rigidbody2D>();
             rb.AddForce(impulseDirection, ForceMode2D.Impulse);
         }
-        
 
-        IEnumerator ColliderCooldown()
+
+        protected IEnumerator ColliderCooldown()
         {
             gameObject.tag = "Untagged";
             yield return new WaitForSeconds(cooldown);
             gameObject.tag = "Item";
         }
+        
 
-        void OnTriggerEnter2D(Collider2D other)
+        void UpdateFovReferences()
         {
-            if(other.gameObject.CompareTag($"Wall")) 
-                rb.velocity = -rb.velocity;
+            var controller = GetComponentInParent<PlayerController>();
+            if(controller != null)
+            {
+                fov = controller.fov.gameObject;
+                baseFov = controller.baseFov.gameObject;
+            }
 
+        }
+        
+        protected void ActivateFOV(bool active)
+        {
+            UpdateFovReferences();
+            fov.SetActive(active);
+            baseFov.SetActive(!active);
         }
     }
 }

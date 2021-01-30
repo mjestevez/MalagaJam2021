@@ -1,24 +1,32 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 public class Interactor : MonoBehaviour
 {
+    [SerializeField] bool activeByPlayer;
     [SerializeField] bool isSingleUse;
     [SerializeField] List<Interactor> dependences;
     [SerializeField] Door door;
 
     public bool isActive;
+    string objectTag;
+
+    void Start()
+    {
+        objectTag = activeByPlayer ? "Player" : "Wall";
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && !isActive)
+        if(other.CompareTag(objectTag) && !isActive)
             EnableInteractor();
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && !isSingleUse)
+        if(other.CompareTag(objectTag) && !isSingleUse)
             DisableInteractor();
     }
 
