@@ -49,6 +49,18 @@ TagManager:
   - name: Pared
     uniqueID: 2572786885
     locked: 0
+  - name: Pared 2
+    uniqueID: 574834181
+    locked: 0
+  - name: Pared 3
+    uniqueID: 170254933
+    locked: 0
+  - name: Interactivos
+    uniqueID: 1246933379
+    locked: 0
+  - name: Pared 4
+    uniqueID: 225872421
+    locked: 0
   - name: Decorativo
     uniqueID: 4228613933
     locked: 0

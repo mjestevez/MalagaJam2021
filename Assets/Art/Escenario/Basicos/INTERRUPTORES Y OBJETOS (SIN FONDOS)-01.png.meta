@@ -1,0 +1,392 @@
+fileFormatVersion: 2
+guid: bd8ae0345c20f1f4dbb39a23fa792071
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8155409143628525083
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_0
+  - first:
+      213: -5246683429711399429
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_1
+  - first:
+      213: 1808202877447266707
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_2
+  - first:
+      213: 2725171293753185148
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_3
+  - first:
+      213: -3851650551216525772
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_4
+  - first:
+      213: -4088611464946322893
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_5
+  - first:
+      213: 2315945861848958471
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_6
+  - first:
+      213: -8843997375470432767
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_7
+  - first:
+      213: 1534945660673388361
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_8
+  - first:
+      213: 3407696443035438485
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_9
+  - first:
+      213: -5150267292156969036
+    second: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 709
+        width: 530
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e63fb2865dd2170800000000000000
+      internalID: 8155409143628525083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_1
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 715
+        width: 327
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5bf1308390037b0800000000000000
+      internalID: -5246683429711399429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_2
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 753
+        width: 261
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3916510dfe6081910800000000000000
+      internalID: 1808202877447266707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_3
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 770
+        width: 207
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7310446ad0c1d520800000000000000
+      internalID: 2725171293753185148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_4
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 837
+        width: 77
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e2dc70b303c8ac0800000000000000
+      internalID: -3851650551216525772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_5
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 816
+        width: 298
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332f847f8855247c0800000000000000
+      internalID: -4088611464946322893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_6
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 816
+        width: 300
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7060b8ead74e32020800000000000000
+      internalID: 2315945861848958471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 295
+        width: 391
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e09989e3fc34580800000000000000
+      internalID: -8843997375470432767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_8
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 246
+        width: 372
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fe6f522f83d4510800000000000000
+      internalID: 1534945660673388361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_9
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 206
+        width: 387
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d4d753cd19a4f20800000000000000
+      internalID: 3407696443035438485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_10
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 88
+        width: 453
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfbba06f239688b0800000000000000
+      internalID: -5150267292156969036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
