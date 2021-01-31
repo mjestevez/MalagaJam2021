@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 3241579847170249407}
   - component: {fileID: 4809820606566313096}
   - component: {fileID: 6931900995574696361}
-  m_Layer: 0
+  - component: {fileID: 4615475074137395129}
+  m_Layer: 13
   m_Name: Palanca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,10 +56,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.09773016, y: -0.3704989}
+  m_Offset: {x: 0.09773016, y: -0.13523841}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -69,8 +70,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7193975, y: 1.7409978}
+  m_Size: {x: 1.3323603, y: 0.67701864}
   m_EdgeRadius: 0
+--- !u!114 &4615475074137395129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563388975151192373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4b30dfb2e5246b291fe99904992a0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  off: {fileID: 3943121023635252382}
+  on: {fileID: 7685099249539672988}
+  door: {fileID: 0}
 --- !u!1 &3679081256353933699
 GameObject:
   m_ObjectHideFlags: 0
@@ -81,7 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6885810261446314405}
   - component: {fileID: 482009073423993814}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,7 +159,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 2315945861848958471, guid: bd8ae0345c20f1f4dbb39a23fa792071,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.60140157, b: 0.37254906, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -162,7 +178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 582635056694794901}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Off
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6537126945150154112}
   - component: {fileID: 2013795413353682324}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: INTERRUPTORES Y OBJETOS (SIN FONDOS)-01_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +272,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -4088611464946322893, guid: bd8ae0345c20f1f4dbb39a23fa792071,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.60140157, b: 0.37254906, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -275,7 +291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6187423358060263637}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: On
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -136,10 +136,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 5
   cooldown: 0.1
-  image: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  image: {fileID: 21300000, guid: bb3727f068af92d4780eb87b48deda3d, type: 3}
   isSingleUse: 1
-  door: {fileID: 0}
-  distanceToUse: 0.5
+  doors: []
+  distanceToUse: 2
 --- !u!210 &7283328827257836232
 SortingGroup:
   m_ObjectHideFlags: 0

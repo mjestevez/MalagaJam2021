@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 public class Interactor : MonoBehaviour
 {
-    [SerializeField] bool activeByPlayer;
-    [SerializeField] bool isSingleUse;
+    [SerializeField] bool activeByPlayer = true;
+    [SerializeField] bool isSingleUse = true;
     [SerializeField] List<Interactor> dependences;
     [SerializeField] Door door;
 
@@ -33,6 +32,7 @@ public class Interactor : MonoBehaviour
     void EnableInteractor()
     {
         isActive = true;
+        GetComponent<SpriteRenderer>().color = Color.gray;
         CheckDependences();
     }
 

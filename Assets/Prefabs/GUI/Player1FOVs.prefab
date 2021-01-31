@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4271648983207383919}
   - component: {fileID: 4271648983207383912}
   - component: {fileID: 4271648983207383913}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: BaseFov
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,12 +49,12 @@ MonoBehaviour:
   fov: 360
   numAristas: 360
   startAngle: 0
-  visionDistance: 0.2
+  visionDistance: 3
   wallVisionFactor: 0
   layerMask:
     serializedVersion: 2
     m_Bits: 256
-  lightVariation: 0
+  lightVariationPercent: 0.05
   lightVariationDuration: 0
 --- !u!33 &4271648983207383912
 MeshFilter:
@@ -201,6 +201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: lightVariation
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9011347766711171100, guid: 002b8d5ae3f47404dbb1772b3c20e737,
+        type: 3}
+      propertyPath: visionDistance
+      value: 6.84
       objectReference: {fileID: 0}
     - target: {fileID: 9011347766711171100, guid: 002b8d5ae3f47404dbb1772b3c20e737,
         type: 3}

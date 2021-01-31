@@ -14,16 +14,16 @@ namespace Scripts.Inventory
         [SerializeField] List<Vector2> directions;
 
         bool isRunning;
-        Vector2 lastDirection;
+        Vector2 logic;
         int collisions;
-        Rigidbody2D rb;
+        Rigidbody2D rb2D;
 
         void Awake()
         {
-            rb = GetComponent<Rigidbody2D>();
+            rb2D = GetComponent<Rigidbody2D>();
         }
 
-        public override void Throw(Vector3 direction, float rbForce)
+        public override void Throw(Vector3 plogic, float rbForce)
         {
             transform.SetParent(null);
             gameObject.SetActive(true);
@@ -32,9 +32,9 @@ namespace Scripts.Inventory
             StartCoroutine(ColliderCooldown());
 
             isRunning = true;
-            rb.velocity = direction * speed;
+            rb2D.velocity = plogic * speed;
             collisions = 0;
-            lastDirection = direction;
+            logic = plogic;
         }
         
         void OnTriggerEnter2D(Collider2D other)
@@ -46,10 +46,10 @@ namespace Scripts.Inventory
         
         IEnumerator ChangeDirection()
         {
-            rb.velocity = -rb.velocity;
+            rb2D.velocity = -rb2D.velocity;
             yield return new WaitForSeconds(0.1f);
-            lastDirection = GenerateRandomDirection();
-            rb.velocity = lastDirection * speed;
+            logic = GenerateRandomDirection();
+            rb2D.velocity = logic * speed;
             collisions++;
             if(collisions >= nCollide)
                 StopRunning();
@@ -62,7 +62,7 @@ namespace Scripts.Inventory
 
         void StopRunning()
         {
-            rb.velocity = Vector2.zero;
+            rb2D.velocity = Vector2.zero;
             collisions = 0;
             isRunning = false;
 
@@ -70,7 +70,7 @@ namespace Scripts.Inventory
 
         Vector2 GenerateRandomDirection()
         {
-            var availableDirections= directions.Where(d => d != lastDirection).ToList();
+            var availableDirections= directions.Where(d => d != logic).ToList();
             return availableDirections[Random.Range(0, availableDirections.Count)];
         }
     }

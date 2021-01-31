@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6640735364406761953}
   - component: {fileID: 6640735364406761952}
   - component: {fileID: 6640735364406761958}
+  - component: {fileID: 6423935444695568797}
   m_Layer: 13
   m_Name: Rock
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,3 +127,23 @@ MonoBehaviour:
     m_Bits: 257
   nexDistance: 0.5
   maxDistance: 0.75
+--- !u!114 &6423935444695568797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6640735364406761955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca36c690dacad5b449503bd14a590635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceShape: 0
+  sphereShapeRadius: 1
+  lineShapeStart: {x: -0, y: -0, z: -1}
+  lineShapeEnd: {x: 0, y: 0, z: 1}
+  areaShapeSize: {x: 1, y: 1, z: 1}
+  playOnAwake: 0
+  m_tags:
+  - Arrastrar

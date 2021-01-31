@@ -1,14 +1,16 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Interactables;
 using Scripts.Inventory;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 public class InventoryController : MonoBehaviour
 {
     bool isKeyboardControl;
     [SerializeField] InventoryPresenter presenter;
-    [SerializeField] int numItemsMax=6;
+    [SerializeField] int numItemsMax=3;
     [SerializeField] LayerMask interactableMask;
 
     Gamepad device;
@@ -31,9 +33,6 @@ public class InventoryController : MonoBehaviour
             null,
             null,
             null,
-            null,
-            null,
-            null
         };
     }
     
@@ -51,18 +50,31 @@ public class InventoryController : MonoBehaviour
     {
         if(!isKeyboardControl)
             ManageGamepadInteractionInputs();
+        else
+            ManageKeyboardInteractionInputs();
+    }
+
+    void ManageKeyboardInteractionInputs()
+    {
+        if(Keyboard.current.fKey.wasPressedThisFrame)
+            Interaction();
     }
 
     void ManageGamepadInteractionInputs()
     {
-        if(device.yButton.wasPressedThisFrame)
-        {
-            var hit = Physics2D.OverlapCircle(transform.position, 0.1f,interactableMask);
-            if(hit != null && hit.GetComponent<Rock>() != null)
-                hit.GetComponent<Rock>().Push(CalculateDirection(hit.transform.position));
-            if(hit != null && hit.GetComponent<Needs>() != null)
-                hit.GetComponent<Needs>().SupplyNeeds(this);
-        }
+        if(device.yButton.wasPressedThisFrame) 
+            Interaction();
+    }
+
+    void Interaction()
+    {
+        var hit = Physics2D.OverlapCircle(transform.position, 1f, interactableMask);
+        if(hit != null && hit.GetComponent<Rock>() != null)
+            hit.GetComponent<Rock>().Push(CalculateDirection(hit.transform.position));
+        if(hit != null && hit.GetComponent<Needs>() != null)
+            hit.GetComponent<Needs>().SupplyNeeds(this);
+        if(hit != null && hit.GetComponent<Palanca>() != null)
+            hit.GetComponent<Palanca>().EnableInteractor();
     }
 
     Vector2 CalculateDirection(Vector3 hit)
@@ -93,6 +105,14 @@ public class InventoryController : MonoBehaviour
     {
         if(!isKeyboardControl)
             ManageGamepadUseInputs();
+        else 
+            ManageKeyboardUseInputs();
+    }
+
+    void ManageKeyboardUseInputs()
+    {
+        if(Keyboard.current.spaceKey.wasPressedThisFrame)
+            UseCurrentItem();
     }
 
     void ManageGamepadUseInputs()
@@ -117,6 +137,14 @@ public class InventoryController : MonoBehaviour
     {
         if(!isKeyboardControl)
             ManageGamepadThrowInputs();
+        else
+            ManageKeyboardThrowInputs();
+    }
+
+    void ManageKeyboardThrowInputs()
+    {
+        if(Keyboard.current.rKey.wasPressedThisFrame)
+            ThrowCurrentItem();
     }
 
     void ManageGamepadThrowInputs()
@@ -184,7 +212,7 @@ public class InventoryController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(CanPickItems() && other.gameObject.CompareTag($"Item")) 
+        if(CanPickItems() && other.gameObject.CompareTag("Item")) 
             AddNewItem(other.gameObject.GetComponent<Item>());
     }
 

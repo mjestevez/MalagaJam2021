@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5d1904cd5304843a753e2194a13d50, type: 3}
+  m_Name: KLSettings
+  m_EditorClassIdentifier: 
+  autogenerateCode: 1
+  editorLogLevel: 1
+  buildLogLevel: 2
+  m_krilloudInDebugMode: 0
+  placeholderContract:
+    tags: []
+    variables: []
+  cacheContract:
+    tags:
+    - name: Ambiente
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Pasos
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Madera
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Antorcha
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Golpe
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Arrastrar
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Puerta
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Pocion
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Cerdo
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Planta
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Interruptor
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    - name: Musica
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 0
+      sourceContract: 2
+    variables:
+    - name: Cerdo_Tipo
+      defaultValue: 0
+      isGlobal: 0
+      source: 2
+      content: 1
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: Musica_Tipo
+      defaultValue: 0
+      isGlobal: 0
+      source: 2
+      content: 1
+      min: 0
+      max: 1
+      sourceContract: 2
+    soundbank_files: []
+    channels: []

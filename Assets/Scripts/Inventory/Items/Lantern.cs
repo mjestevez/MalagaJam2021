@@ -20,6 +20,7 @@ namespace Scripts.Inventory
                 itemFov = GetComponentInChildren<FieldOfView>().gameObject;
                 itemFov.transform.SetParent(null);
                 itemFov.transform.position= Vector3.zero;
+                itemFov.transform.localScale = Vector3.one;
                 itemFov.gameObject.SetActive(false);
             }
         }
@@ -47,9 +48,9 @@ namespace Scripts.Inventory
             ActivateFOV(isActive);
         }
 
-        public override void Throw(Vector3 direction, float rbForce)
+        public override void Throw(Vector3 plogic, float rbForce)
         {
-            base.Throw(direction, rbForce);
+            base.Throw(plogic, rbForce);
             ActivateFOV(false);
             itemFov.gameObject.SetActive(isActive);
         }

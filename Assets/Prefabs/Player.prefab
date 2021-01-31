@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8847078686166863223}
   - component: {fileID: 8847078686166863218}
   - component: {fileID: 4662962086459472816}
+  - component: {fileID: 2671824485796205465}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -163,7 +164,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   presenter: {fileID: 0}
-  numItemsMax: 6
+  numItemsMax: 3
+  interactableMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &4662962086459472816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,3 +182,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxTimeSeconds: 60
   healthBar: {fileID: 0}
+--- !u!114 &2671824485796205465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8847078686166863224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca36c690dacad5b449503bd14a590635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceShape: 0
+  sphereShapeRadius: 1
+  lineShapeStart: {x: -0, y: -0, z: -1}
+  lineShapeEnd: {x: 0, y: 0, z: 1}
+  areaShapeSize: {x: 1, y: 1, z: 1}
+  playOnAwake: 0
+  m_tags:
+  - Pasos

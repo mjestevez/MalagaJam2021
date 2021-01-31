@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 6058117312132193494}
   m_Layer: 0
   m_Name: Collider Luz
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -459,6 +459,8 @@ GameObject:
   - component: {fileID: 5694923804516004120}
   - component: {fileID: 4957898834870211144}
   - component: {fileID: 7547788375515386615}
+  - component: {fileID: 7471018465085488406}
+  - component: {fileID: 211860426326766703}
   m_Layer: 0
   m_Name: Puerta Metal Horizontal
   m_TagString: Untagged
@@ -513,3 +515,35 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7471018465085488406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7217836965012394531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8433835f843843b4a97a70c3ad06a202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &211860426326766703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7217836965012394531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca36c690dacad5b449503bd14a590635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceShape: 0
+  sphereShapeRadius: 1
+  lineShapeStart: {x: -0, y: -0, z: -1}
+  lineShapeEnd: {x: 0, y: 0, z: 1}
+  areaShapeSize: {x: 1, y: 1, z: 1}
+  playOnAwake: 0
+  m_tags:
+  - Interruptor

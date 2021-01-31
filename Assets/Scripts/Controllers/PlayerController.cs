@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using KrillAudio.Krilloud;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
@@ -13,6 +14,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Vector2 direction;
     static Gamepad device;
+    KLAudioSource audioSource;
 
     public float RbForce => rb.velocity.magnitude;
     
@@ -20,6 +22,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         direction = Vector2.zero;
+        audioSource = GetComponent<KLAudioSource>();
     }
 
     void Update()
@@ -47,6 +50,12 @@ public class PlayerController : MonoBehaviour
     void UpdateMovement()
     {
         rb.velocity = direction * speed;
+        
+        if(rb.velocity.magnitude!=0)
+            audioSource.Play();
+        else
+            audioSource.Stop();
+            
     }
 
     void CheckControllers()

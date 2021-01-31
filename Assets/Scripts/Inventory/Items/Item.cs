@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using KrillAudio.Krilloud;
 using UnityEngine;
 
 namespace Scripts.Inventory
@@ -38,7 +39,7 @@ namespace Scripts.Inventory
             return true;
         }
 
-        public virtual void Throw(Vector3 direction, float rbForce)
+        public virtual void Throw(Vector3 plogic, float rbForce)
         {
             transform.SetParent(null);
             gameObject.SetActive(true);
@@ -47,8 +48,8 @@ namespace Scripts.Inventory
             StartCoroutine(ColliderCooldown());
 
             var impulseDirection = rbForce != 0 
-                ? direction * (force * Mathf.Abs(rbForce)) 
-                : direction * force;
+                ? plogic * (force * Mathf.Abs(rbForce)) 
+                : plogic * force;
             if(rb == null)
                 rb = GetComponent<Rigidbody2D>();
             rb.AddForce(impulseDirection, ForceMode2D.Impulse);
@@ -79,6 +80,15 @@ namespace Scripts.Inventory
             UpdateFovReferences();
             fov.SetActive(active);
             baseFov.SetActive(!active);
+            
+            var audioSource = GetComponent<KLAudioSource>();
+            if(audioSource==null)
+                return;
+            
+            if(active)
+                audioSource.Play();
+            else
+                audioSource.Stop();
         }
     }
 }

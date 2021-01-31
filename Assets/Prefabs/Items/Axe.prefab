@@ -135,8 +135,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 5
   cooldown: 0.1
-  image: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  image: {fileID: 21300000, guid: 19e7ec11b5c88924fa5708080d7b3038, type: 3}
   isSingleUse: 0
-  distanceToUse: 0.5
-  woodItem: {fileID: 6427960716725770854, guid: 1409759fee0540843aff3f97ce30d8e8,
+  distanceToUse: 1
+  woodItem: {fileID: 3856036844397437355, guid: d5646a085ff8b87418973db59fb0fa6e,
     type: 3}

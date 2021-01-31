@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 292e323279cac5741b54c727ca613266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeByPlayer: 1
   isSingleUse: 1
   dependences: []
   door: {fileID: 0}

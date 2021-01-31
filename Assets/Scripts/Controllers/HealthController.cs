@@ -21,4 +21,9 @@ public class HealthController : MonoBehaviour
             if(currentTime < 0) currentTime = 0;
         }
     }
+
+    public void DenigranciaDestroy_LocalTeam(float amount)
+    {
+        currentTime += amount;
+    }
 }

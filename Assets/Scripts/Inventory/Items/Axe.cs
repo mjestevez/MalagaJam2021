@@ -1,7 +1,6 @@
 ﻿using System.Linq;
 using Interactables;
 using Scripts.Inventory;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class Axe : Item
@@ -18,7 +17,7 @@ public class Axe : Item
             var wood = hits.First(i => i.GetComponent<Wood>() != null).GetComponent<Wood>();
             wood.Chop();
 
-            woodItem = Instantiate(woodItem, wood.transform.position, quaternion.identity);
+            Instantiate(woodItem, wood.transform.position, Quaternion.identity);
             return true;
         }
 
@@ -30,6 +29,6 @@ public class Axe : Item
         var rb = GetComponent<Rigidbody2D>();
         if(other.gameObject.CompareTag("Wall")) 
             rb.velocity = -rb.velocity;
-
+        
     }
 }
