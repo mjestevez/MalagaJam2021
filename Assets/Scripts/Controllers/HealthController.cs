@@ -3,6 +3,8 @@ using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour
 {
+    public GameObject UI;
+    public GameObject FOV;
     [SerializeField] float maxTimeSeconds;
     [SerializeField] Image healthBar;
     float currentTime;
