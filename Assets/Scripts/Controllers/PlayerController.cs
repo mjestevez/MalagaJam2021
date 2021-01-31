@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     public int playerID;
     [SerializeField] float speed;
+    Vector2 lastlastDirection;
     public Vector2 lastFaceDirection;
     public FieldOfView fov;
     public FieldOfView baseFov;
@@ -78,7 +79,6 @@ public class PlayerController : MonoBehaviour
         }
         
         direction = new Vector2(x, y);
-        
         UpdateLastFaceDirection(x, y);
 
     }
@@ -129,11 +129,20 @@ public class PlayerController : MonoBehaviour
                 lastFaceDirection = y > 0 ? new Vector2(0, 1) : new Vector2(0, -1);
         }
 
+        if(lastlastDirection != lastFaceDirection)
+        {
+            lastlastDirection = lastFaceDirection;
+            UpdateAnimator();
+        }
+            
+    }
+
+    void UpdateAnimator()
+    {
         foreach(var pos in positions)
         {
             pos.SetActive(false);
         }
-
         if(lastFaceDirection.x == 0 && lastFaceDirection.y < 0)
             positions[0].SetActive(true);
         else if(lastFaceDirection.x == 0 && lastFaceDirection.y > 0)
@@ -144,6 +153,5 @@ public class PlayerController : MonoBehaviour
             positions[3].SetActive(true);
         else
             positions[0].SetActive(true);
-        
     }
 }

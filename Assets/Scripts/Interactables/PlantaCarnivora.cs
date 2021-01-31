@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using Scripts.Inventory;
 using UnityEngine;
 
@@ -18,7 +19,7 @@ namespace Interactables
                     other.collider.GetComponent<HealthController>().UI.SetActive(false);
                     other.collider.GetComponent<HealthController>().FOV.SetActive(false);
                     other.collider.gameObject.SetActive(false);
-                    gameObject.SetActive(false);
+                    StartCoroutine(Animationda());
                 }
 
             }
@@ -34,12 +35,20 @@ namespace Interactables
                     {
                         active = false;
                         other.gameObject.SetActive(false);
-                        gameObject.SetActive(false);
+                        StartCoroutine(Animationda());
                     }
                 
                 }
             }
             
+        }
+
+        IEnumerator Animationda()
+        {
+            GetComponent<Animator>().SetTrigger("Atacar");
+            yield return new WaitForSeconds(0.1f);
+            GetComponent<Animator>().SetBool("Dormido", true);
+            Destroy(this);
         }
     }
 }
