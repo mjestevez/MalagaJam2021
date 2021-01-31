@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: cc81aeb558de825478bb3b754d3692aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3989048527173643805
+    second: PERSONAJES ENEMIGOS-01_0
+  - first:
+      213: -5406439293430674262
+    second: PERSONAJES ENEMIGOS-01_1
+  - first:
+      213: -6525055824406106189
+    second: PERSONAJES ENEMIGOS-01_2
+  - first:
+      213: -2233853199594582685
+    second: PERSONAJES ENEMIGOS-01_3
+  - first:
+      213: -549862897913168240
+    second: PERSONAJES ENEMIGOS-01_4
+  - first:
+      213: -1325753082891626708
+    second: PERSONAJES ENEMIGOS-01_5
+  - first:
+      213: -5300623801321458146
+    second: PERSONAJES ENEMIGOS-01_6
+  - first:
+      213: 8550165540948595796
+    second: PERSONAJES ENEMIGOS-01_7
+  - first:
+      213: 381389750047865988
+    second: PERSONAJES ENEMIGOS-01_8
+  - first:
+      213: 9041555347735017399
+    second: PERSONAJES ENEMIGOS-01_9
+  - first:
+      213: -8331964913641608836
+    second: PERSONAJES ENEMIGOS-01_10
+  - first:
+      213: 3195157507938419836
+    second: PERSONAJES ENEMIGOS-01_11
+  - first:
+      213: -6256703976758326914
+    second: PERSONAJES ENEMIGOS-01_12
+  - first:
+      213: 469904421195825561
+    second: PERSONAJES ENEMIGOS-01_13
+  - first:
+      213: 8566435231929477802
+    second: PERSONAJES ENEMIGOS-01_14
+  - first:
+      213: 8315224704429927967
+    second: PERSONAJES ENEMIGOS-01_15
+  - first:
+      213: -4350525694199741585
+    second: PERSONAJES ENEMIGOS-01_16
+  - first:
+      213: 1793526407689506001
+    second: PERSONAJES ENEMIGOS-01_17
+  - first:
+      213: 5201658159864743580
+    second: PERSONAJES ENEMIGOS-01_18
+  - first:
+      213: 1694037502739090189
+    second: PERSONAJES ENEMIGOS-01_19
+  - first:
+      213: -5086549948631318140
+    second: PERSONAJES ENEMIGOS-01_20
+  - first:
+      213: 1004303119324713228
+    second: PERSONAJES ENEMIGOS-01_21
+  - first:
+      213: 6194186347635923935
+    second: PERSONAJES ENEMIGOS-01_22
+  - first:
+      213: -3377338703404145833
+    second: PERSONAJES ENEMIGOS-01_23
+  - first:
+      213: 2287382735820153115
+    second: PERSONAJES ENEMIGOS-01_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_0
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2370
+        width: 247
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1150adf7d04a8c0800000000000000
+      internalID: -3989048527173643805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_1
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 2290
+        width: 174
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacc95f6b1878f4b0800000000000000
+      internalID: -5406439293430674262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_2
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2143
+        width: 191
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf2ea68c485275a0800000000000000
+      internalID: -6525055824406106189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_3
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 2019
+        width: 247
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d8bc5b952cff0e0800000000000000
+      internalID: -2233853199594582685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_4
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 2019
+        width: 141
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ef7be8b9e7e58f0800000000000000
+      internalID: -549862897913168240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2057
+        width: 172
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c279d52689af99de0800000000000000
+      internalID: -1325753082891626708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_6
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 2068
+        width: 171
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16f0429cb66076b0800000000000000
+      internalID: -5300623801321458146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_7
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 2065
+        width: 172
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454d60f324a48a670800000000000000
+      internalID: 8550165540948595796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_8
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2204
+        width: 107
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cf39cf4f7fa4500800000000000000
+      internalID: 381389750047865988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_9
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 2053
+        width: 174
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b777ce3fae0a7d70800000000000000
+      internalID: 9041555347735017399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1981
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79af514e0aee5c80800000000000000
+      internalID: -8331964913641608836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_11
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1972
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74871623da775c20800000000000000
+      internalID: 3195157507938419836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_12
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1981
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79cb80f1e8bb29a0800000000000000
+      internalID: -6256703976758326914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_13
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1982
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99143c7d49f658600800000000000000
+      internalID: 469904421195825561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_14
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1985
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa2c8ed47712e670800000000000000
+      internalID: 8566435231929477802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_15
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1994
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e291f00dc956370800000000000000
+      internalID: 8315224704429927967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_16
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1108
+        width: 535
+        height: 679
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63c3036ee3df93c0800000000000000
+      internalID: -4350525694199741585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_17
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1108
+        width: 534
+        height: 679
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc8d99e3c2e3e810800000000000000
+      internalID: 1793526407689506001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_18
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1161
+        width: 567
+        height: 688
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9600cd6980003840800000000000000
+      internalID: 5201658159864743580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 529
+        width: 452
+        height: 426
+      alignment: 9
+      pivot: {x: 0.9475774, y: 0.37994272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b04f2222e628710800000000000000
+      internalID: 1694037502739090189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_20
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 610
+        width: 90
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818c8b75c1f869b0800000000000000
+      internalID: -5086549948631318140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_21
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 561
+        width: 450
+        height: 426
+      alignment: 9
+      pivot: {x: 0.91673315, y: 0.30790818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c019a22bd5000fd00800000000000000
+      internalID: 1004303119324713228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_22
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 523
+        width: 474
+        height: 432
+      alignment: 9
+      pivot: {x: 0.93639517, y: 0.34740844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbd96b3aab26f550800000000000000
+      internalID: 6194186347635923935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_23
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 110
+        width: 350
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753ea69d7584121d0800000000000000
+      internalID: -3377338703404145833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES ENEMIGOS-01_24
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 73
+        width: 226
+        height: 411
+      alignment: 9
+      pivot: {x: 0.20329136, y: 0.052018862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11ebe9aa7a6ebf10800000000000000
+      internalID: 2287382735820153115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
