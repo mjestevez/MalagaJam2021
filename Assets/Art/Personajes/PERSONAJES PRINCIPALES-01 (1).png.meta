@@ -1,0 +1,896 @@
+fileFormatVersion: 2
+guid: 28dea8cc792026d4da9cfc6a4c4b860d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7161513933509548181
+    second: PERSONAJES PRINCIPALES-01 (1)_0
+  - first:
+      213: 93837303430086644
+    second: PERSONAJES PRINCIPALES-01 (1)_1
+  - first:
+      213: 9117413781139084049
+    second: PERSONAJES PRINCIPALES-01 (1)_3
+  - first:
+      213: 5965425366506843445
+    second: PERSONAJES PRINCIPALES-01 (1)_4
+  - first:
+      213: 751436085262634532
+    second: PERSONAJES PRINCIPALES-01 (1)_5
+  - first:
+      213: -1886874135641066200
+    second: PERSONAJES PRINCIPALES-01 (1)_6
+  - first:
+      213: 5605305288529424397
+    second: PERSONAJES PRINCIPALES-01 (1)_7
+  - first:
+      213: -8404450190545839507
+    second: PERSONAJES PRINCIPALES-01 (1)_8
+  - first:
+      213: -3823637904165051724
+    second: PERSONAJES PRINCIPALES-01 (1)_9
+  - first:
+      213: -6499839615299855392
+    second: PERSONAJES PRINCIPALES-01 (1)_10
+  - first:
+      213: -3095069515096643946
+    second: PERSONAJES PRINCIPALES-01 (1)_12
+  - first:
+      213: -7696810128276906564
+    second: PERSONAJES PRINCIPALES-01 (1)_13
+  - first:
+      213: 5314532971578999840
+    second: PERSONAJES PRINCIPALES-01 (1)_14
+  - first:
+      213: -2153497075541638405
+    second: PERSONAJES PRINCIPALES-01 (1)_17
+  - first:
+      213: -5034342404247878006
+    second: PERSONAJES PRINCIPALES-01 (1)_21
+  - first:
+      213: -4979514978687456847
+    second: PERSONAJES PRINCIPALES-01 (1)_22
+  - first:
+      213: 5880195034964650012
+    second: PERSONAJES PRINCIPALES-01 (1)_23
+  - first:
+      213: -8225904879657350942
+    second: PERSONAJES PRINCIPALES-01 (1)_24
+  - first:
+      213: 7742649108319919961
+    second: PERSONAJES PRINCIPALES-01 (1)_25
+  - first:
+      213: -6145040895783571520
+    second: PERSONAJES PRINCIPALES-01 (1)_26
+  - first:
+      213: -5111541720425496305
+    second: PERSONAJES PRINCIPALES-01 (1)_27
+  - first:
+      213: 8205864974741798281
+    second: PERSONAJES PRINCIPALES-01 (1)_28
+  - first:
+      213: 7107349224265475431
+    second: PERSONAJES PRINCIPALES-01 (1)_29
+  - first:
+      213: 3482374098016876610
+    second: PERSONAJES PRINCIPALES-01 (1)_30
+  - first:
+      213: 2132226471764531465
+    second: PERSONAJES PRINCIPALES-01 (1)_31
+  - first:
+      213: -4023326219469761188
+    second: PERSONAJES PRINCIPALES-01 (1)_34
+  - first:
+      213: -347774727046791048
+    second: PERSONAJES PRINCIPALES-01 (1)_36
+  - first:
+      213: -8864062299907347244
+    second: PERSONAJES PRINCIPALES-01 (1)_37
+  - first:
+      213: 8062999624131786715
+    second: PERSONAJES PRINCIPALES-01 (1)_38
+  - first:
+      213: 6847331283723807696
+    second: PERSONAJES PRINCIPALES-01 (1)_39
+  - first:
+      213: 4435600888544362329
+    second: PERSONAJES PRINCIPALES-01 (1)_44
+  - first:
+      213: -5614038402984956095
+    second: PERSONAJES PRINCIPALES-01 (1)_45
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2508
+        width: 415
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67272355013d9c90800000000000000
+      internalID: -7161513933509548181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 2510
+        width: 415
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff71a1c7806d4100800000000000000
+      internalID: 93837303430086644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 2502
+        width: 382
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113db0f178f878e70800000000000000
+      internalID: 9117413781139084049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2022
+        width: 415
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53daeb0c3c279c250800000000000000
+      internalID: 5965425366506843445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1993
+        width: 415
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e4d756323ad6a00800000000000000
+      internalID: 751436085262634532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 2008
+        width: 382
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825fd3188f970d5e0800000000000000
+      internalID: -1886874135641066200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1862
+        width: 89
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d003a64367b0acd40800000000000000
+      internalID: 5605305288529424397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1833
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a1d0494156d5b80800000000000000
+      internalID: -8404450190545839507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1873
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2e58ca595bfeac0800000000000000
+      internalID: -3823637904165051724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1784
+        width: 177
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb5a09be4eebc5a0800000000000000
+      internalID: -6499839615299855392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1806
+        width: 176
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6962685acaa1c05d0800000000000000
+      internalID: -3095069515096643946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1753
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd1d60c7ff6f2590800000000000000
+      internalID: -7696810128276906564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1751
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024411e749301c940800000000000000
+      internalID: 5314532971578999840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1803
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf28f7bc1dd3d12e0800000000000000
+      internalID: -2153497075541638405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1644
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a868e15a14c622ab0800000000000000
+      internalID: -5034342404247878006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1000
+        width: 526
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9e89d628535eab0800000000000000
+      internalID: -4979514978687456847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_23
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1000
+        width: 456
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18651dca36aa9150800000000000000
+      internalID: 5880195034964650012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 994
+        width: 605
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e80fdb3817b7dd80800000000000000
+      internalID: -8225904879657350942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 461
+        width: 156
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f57e9775a637b60800000000000000
+      internalID: 7742649108319919961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 471
+        width: 468
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf6294fcdd68baa0800000000000000
+      internalID: -6145040895783571520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_27
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 462
+        width: 456
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01037b23e72019b0800000000000000
+      internalID: -5111541720425496305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 380
+        width: 164
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dfd4ec7b611e170800000000000000
+      internalID: 8205864974741798281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 456
+        width: 448
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765edfe867062a260800000000000000
+      internalID: 7107349224265475431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_30
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 305
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248315faac0e35030800000000000000
+      internalID: 3482374098016876610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_31
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 246
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9099536dda0379d10800000000000000
+      internalID: 2132226471764531465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_34
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 238
+        width: 177
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c555df0be164a28c0800000000000000
+      internalID: -4023326219469761188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_36
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 229
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87084847ab47c2bf0800000000000000
+      internalID: -347774727046791048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 191
+        width: 206
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc27135d468cf480800000000000000
+      internalID: -8864062299907347244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_38
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 154
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7bb74407785ef60800000000000000
+      internalID: 8062999624131786715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_39
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 135
+        width: 71
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbe6c9168b960f50800000000000000
+      internalID: 6847331283723807696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_44
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 148
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ff71fd18b6e8d30800000000000000
+      internalID: 4435600888544362329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERSONAJES PRINCIPALES-01 (1)_45
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 112
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f2ea221dde612b0800000000000000
+      internalID: -5614038402984956095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
