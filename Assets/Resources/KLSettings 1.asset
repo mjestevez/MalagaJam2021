@@ -102,7 +102,7 @@ MonoBehaviour:
       description: 
       is3D: 0
       max3DDistance: 2
-      isLoop: 0
+      isLoop: 1
       channelId: 0
       sourceContract: 2
     variables:

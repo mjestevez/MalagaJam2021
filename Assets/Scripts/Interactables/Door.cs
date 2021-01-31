@@ -1,5 +1,4 @@
-﻿using KrillAudio.Krilloud;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Door : MonoBehaviour
 {
@@ -7,7 +6,6 @@ public class Door : MonoBehaviour
     public void Unlock()
     {
         gameObject.SetActive(false);
-        GetComponent<KLAudioSource>().Play();
     }
 
     public void Lock()

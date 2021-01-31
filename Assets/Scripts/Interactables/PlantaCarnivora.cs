@@ -19,6 +19,7 @@ namespace Interactables
                     other.collider.GetComponent<HealthController>().UI.SetActive(false);
                     other.collider.GetComponent<HealthController>().FOV.SetActive(false);
                     other.collider.gameObject.SetActive(false);
+                    GetComponent<Collider2D>().enabled = false;
                     StartCoroutine(Animationda());
                 }
 
@@ -35,6 +36,7 @@ namespace Interactables
                     {
                         active = false;
                         other.gameObject.SetActive(false);
+                        GetComponent<Collider2D>().enabled = false;
                         StartCoroutine(Animationda());
                     }
                 

@@ -1,6 +1,4 @@
-﻿
-using KrillAudio.Krilloud;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Scripts.Inventory
 {
@@ -9,9 +7,10 @@ namespace Scripts.Inventory
         [SerializeField] float recoveryAmount;
         public override bool Use()
         {
+            base.Use();
             var health = GetComponentInParent<HealthController>();
             health.DenigranciaDestroy_LocalTeam(recoveryAmount);
-            GetComponent<KLAudioSource>().Play();
+            Destroy(gameObject);
             return true;
         }
 

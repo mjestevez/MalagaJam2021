@@ -5340,11 +5340,10 @@ GameObject:
   - component: {fileID: 8847078686166863221}
   - component: {fileID: 8847078686166863222}
   - component: {fileID: 8847078686166863219}
-  - component: {fileID: 8847078686166863220}
   - component: {fileID: 8847078686166863223}
   - component: {fileID: 8847078686166863218}
   - component: {fileID: 4662962086459472816}
-  - component: {fileID: 2671824485796205465}
+  - component: {fileID: 8164456647039818819}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -5439,32 +5438,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &8847078686166863220
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8847078686166863224}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.006432496}
-  m_SpriteTilingProperty:
-    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
-    newSize: {x: 0.16, y: 0.16}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.17286499}
-  m_EdgeRadius: 0
 --- !u!114 &8847078686166863223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5482,6 +5455,7 @@ MonoBehaviour:
   lastFaceDirection: {x: 0, y: 0}
   fov: {fileID: 0}
   baseFov: {fileID: 0}
+  positions: []
 --- !u!114 &8847078686166863218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5515,26 +5489,25 @@ MonoBehaviour:
   FOV: {fileID: 0}
   maxTimeSeconds: 60
   healthBar: {fileID: 0}
---- !u!114 &2671824485796205465
-MonoBehaviour:
+  currentTime: 0
+  icon: {fileID: 0}
+  icons: []
+--- !u!70 &8164456647039818819
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8847078686166863224}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca36c690dacad5b449503bd14a590635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sourceShape: 0
-  sphereShapeRadius: 1
-  lineShapeStart: {x: -0, y: -0, z: -1}
-  lineShapeEnd: {x: 0, y: 0, z: 1}
-  areaShapeSize: {x: 1, y: 1, z: 1}
-  playOnAwake: 0
-  m_tags:
-  - Pasos
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0005694628, y: -0.0036726892}
+  m_Size: {x: 0.10954964, y: 0.15561634}
+  m_Direction: 0
 --- !u!1 &9202466898347585622
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using KrillAudio.Krilloud;
 using UnityEngine;
 
 namespace Scripts.Inventory
@@ -79,15 +78,6 @@ namespace Scripts.Inventory
             UpdateFovReferences();
             fov.SetActive(active);
             baseFov.SetActive(!active);
-            
-            var audioSource = GetComponent<KLAudioSource>();
-            if(audioSource==null)
-                return;
-            
-            if(active)
-                audioSource.Play();
-            else
-                audioSource.Stop();
         }
     }
 }

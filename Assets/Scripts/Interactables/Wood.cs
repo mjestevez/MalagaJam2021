@@ -1,5 +1,4 @@
-﻿using KrillAudio.Krilloud;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Interactables
 {
@@ -7,7 +6,6 @@ namespace Interactables
     {
         public void Chop()
         {
-            GetComponent<KLAudioSource>().Play();
             gameObject.SetActive(false);
             Destroy(gameObject,1f);
         }

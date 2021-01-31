@@ -56,7 +56,7 @@ public class InventoryController : MonoBehaviour
 
     void ManageKeyboardInteractionInputs()
     {
-        if(Keyboard.current.fKey.wasPressedThisFrame)
+        if(Keyboard.current.kKey.wasPressedThisFrame)
             Interaction();
     }
 
@@ -111,7 +111,7 @@ public class InventoryController : MonoBehaviour
 
     void ManageKeyboardUseInputs()
     {
-        if(Keyboard.current.spaceKey.wasPressedThisFrame)
+        if(Keyboard.current.hKey.wasPressedThisFrame)
             UseCurrentItem();
     }
 
@@ -143,7 +143,7 @@ public class InventoryController : MonoBehaviour
 
     void ManageKeyboardThrowInputs()
     {
-        if(Keyboard.current.rKey.wasPressedThisFrame)
+        if(Keyboard.current.jKey.wasPressedThisFrame)
             ThrowCurrentItem();
     }
 
@@ -197,9 +197,9 @@ public class InventoryController : MonoBehaviour
 
     void ManageKeyboardNavigationInputs()
     {
-        if(Keyboard.current.qKey.wasPressedThisFrame)
+        if(Keyboard.current.yKey.wasPressedThisFrame)
             SelectNewObject(false);
-        if(Keyboard.current.eKey.wasPressedThisFrame)
+        if(Keyboard.current.uKey.wasPressedThisFrame)
             SelectNewObject(true);
     }
 

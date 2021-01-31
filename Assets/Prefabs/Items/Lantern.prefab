@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1901527036016098210}
   - component: {fileID: 1901527036016098215}
   - component: {fileID: 1901527036016098211}
-  - component: {fileID: 8243934711355973283}
   m_Layer: 0
   m_Name: Lantern
   m_TagString: Item
@@ -143,26 +142,6 @@ MonoBehaviour:
   isSingleUse: 0
   off: {fileID: 21300000, guid: 5ad6903f6f457f84999c60ed48039467, type: 3}
   on: {fileID: 21300000, guid: 77413e2f002285343afd939582f262b5, type: 3}
---- !u!114 &8243934711355973283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901527036016098220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca36c690dacad5b449503bd14a590635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sourceShape: 0
-  sphereShapeRadius: 1
-  lineShapeStart: {x: -0, y: -0, z: -1}
-  lineShapeEnd: {x: 0, y: 0, z: 1}
-  areaShapeSize: {x: 1, y: 1, z: 1}
-  playOnAwake: 0
-  m_tags:
-  - Antorcha
 --- !u!1001 &1429239274760861884
 PrefabInstance:
   m_ObjectHideFlags: 0

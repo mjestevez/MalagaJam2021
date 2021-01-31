@@ -1,6 +1,4 @@
 ﻿using DG.Tweening;
-using Interactables;
-using KrillAudio.Krilloud;
 using UnityEngine;
 
 public class Rock : MonoBehaviour
@@ -28,7 +26,6 @@ public class Rock : MonoBehaviour
         {
             canPush = false;
             transform.DOMove(transform.position + (Vector3) direc * nexDistance, 1f).SetEase(Ease.InOutQuad).OnComplete(()=>canPush=true).Play();
-            GetComponent<KLAudioSource>().Play();
         }
             
     }
