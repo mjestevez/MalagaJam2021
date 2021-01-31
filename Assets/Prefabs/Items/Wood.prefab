@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1227339184976317484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.119, y: -0.451, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -137,4 +137,5 @@ MonoBehaviour:
   force: 5
   cooldown: 0.1
   image: {fileID: 21300000, guid: b2751657b4e79664fae90da2fc561c40, type: 3}
+  color: {r: 1, g: 1, b: 1, a: 1}
   isSingleUse: 0

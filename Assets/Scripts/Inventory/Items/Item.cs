@@ -48,9 +48,7 @@ namespace Scripts.Inventory
             StopAllCoroutines();
             StartCoroutine(ColliderCooldown());
 
-            var impulseDirection = rbForce != 0 
-                ? plogic * (force * Mathf.Abs(rbForce)) 
-                : plogic * force;
+            var impulseDirection = plogic * (force * Mathf.Abs(5f));
             if(rb == null)
                 rb = GetComponent<Rigidbody2D>();
             rb.AddForce(impulseDirection, ForceMode2D.Impulse);
