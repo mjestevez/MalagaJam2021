@@ -9,6 +9,7 @@ namespace Scripts.Inventory
         [SerializeField] float force = 5f;
         [SerializeField] float cooldown = 0.1f;
         public Sprite image;
+        public Color color = Color.white;
         public bool isSingleUse;
         
         protected GameObject fov;

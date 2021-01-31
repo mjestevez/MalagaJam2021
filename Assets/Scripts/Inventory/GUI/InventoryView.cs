@@ -12,9 +12,10 @@ public class InventoryView : MonoBehaviour
         selection.SetActive(selected);
     }
 
-    public void SetObjectImage(Sprite image)
+    public void SetObjectImage(Sprite image, Color color)
     {
         item.gameObject.SetActive(image!=null);
         item.sprite = image;
+        item.color = color;
     }
 }

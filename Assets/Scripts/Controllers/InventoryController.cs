@@ -9,7 +9,7 @@ using UnityEngine.InputSystem.Controls;
 public class InventoryController : MonoBehaviour
 {
     bool isKeyboardControl;
-    [SerializeField] InventoryPresenter presenter;
+    public InventoryPresenter presenter;
     [SerializeField] int numItemsMax=3;
     [SerializeField] LayerMask interactableMask;
 
@@ -222,7 +222,7 @@ public class InventoryController : MonoBehaviour
     {
         var index = items.FindIndex(i => i == null);
         items[index] = item;
-        presenter.AddNewObject(index, item.image);
+        presenter.AddNewObject(index, item.image, item.color);
         item.PickUp(transform, index==presenter.CurrentSelectedIndex);
     }
 

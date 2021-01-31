@@ -1,4 +1,5 @@
-﻿using KrillAudio.Krilloud;
+﻿using System.Collections.Generic;
+using KrillAudio.Krilloud;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 lastFaceDirection;
     public FieldOfView fov;
     public FieldOfView baseFov;
+    public List<GameObject> positions;
         
     bool isKeyboardControl;
     Rigidbody2D rb;
@@ -126,5 +128,22 @@ public class PlayerController : MonoBehaviour
             if(Mathf.Abs(x) < Mathf.Abs(y)) 
                 lastFaceDirection = y > 0 ? new Vector2(0, 1) : new Vector2(0, -1);
         }
+
+        foreach(var pos in positions)
+        {
+            pos.SetActive(false);
+        }
+
+        if(lastFaceDirection.x == 0 && lastFaceDirection.y < 0)
+            positions[0].SetActive(true);
+        else if(lastFaceDirection.x == 0 && lastFaceDirection.y > 0)
+            positions[1].SetActive(true);
+        else if(lastFaceDirection.x > 0 && lastFaceDirection.y == 0)
+            positions[2].SetActive(true);
+        else if(lastFaceDirection.x < 0 && lastFaceDirection.y == 0)
+            positions[3].SetActive(true);
+        else
+            positions[0].SetActive(true);
+        
     }
 }

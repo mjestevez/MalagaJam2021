@@ -5,6 +5,7 @@ public class Needs : MonoBehaviour
 {
     [SerializeField] Item requiredItem;
     [SerializeField] int amount;
+    [SerializeField] Collider2D colliderToRemove;
 
     bool CheckNeedsSupply(InventoryController inventory)
     {
@@ -21,6 +22,8 @@ public class Needs : MonoBehaviour
             color.a = 1;
             GetComponent<SpriteRenderer>().color = color;
             GetComponent<Collider2D>().enabled = false;
+            if(colliderToRemove!=null)
+                colliderToRemove.enabled = false;
         }
             
     }

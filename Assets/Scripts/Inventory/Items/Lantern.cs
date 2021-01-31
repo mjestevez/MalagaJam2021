@@ -4,6 +4,8 @@ namespace Scripts.Inventory
 {
     public class Lantern : Item
     {
+        public Sprite off;
+        public Sprite on;
         GameObject itemFov;
 
         bool isActive;
@@ -30,6 +32,7 @@ namespace Scripts.Inventory
             base.PickUp(target, isCurentSelected);
             UpdateFovItem();
             itemFov.gameObject.SetActive(false);
+            GetComponentInParent<InventoryController>().presenter.SetObjectImage(!isActive ? off : on);
             if(isCurentSelected) 
                 SelectItem();
         }
@@ -37,6 +40,7 @@ namespace Scripts.Inventory
         public override bool Use()
         {
             var active = fov.activeInHierarchy;
+            GetComponentInParent<InventoryController>().presenter.SetObjectImage(active ? off : on);
             ActivateFOV(!active);
             isActive = !active;
             return true;

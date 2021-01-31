@@ -13,9 +13,9 @@ public class InventoryPresenter : MonoBehaviour
         inventoryViews[currentSelectedIndex].MarkAsSelected(true);
     }
 
-    public void AddNewObject(int index, Sprite image)
+    public void AddNewObject(int index, Sprite image, Color color)
     {
-        inventoryViews[index].SetObjectImage(image);
+        inventoryViews[index].SetObjectImage(image, color);
     }
 
     public bool SelectNewObject(bool isRightInput)
@@ -34,11 +34,16 @@ public class InventoryPresenter : MonoBehaviour
 
     public void RemoveCurrentItem()
     {
-        inventoryViews[currentSelectedIndex].SetObjectImage(null);
+        inventoryViews[currentSelectedIndex].SetObjectImage(null, Color.white);
     }
 
     public void RemoveItem(int index)
     {
-        inventoryViews[index].SetObjectImage(null);
+        inventoryViews[index].SetObjectImage(null, Color.white);
+    }
+
+    public void SetObjectImage(Sprite sprite)
+    {
+        inventoryViews[currentSelectedIndex].SetObjectImage(sprite, Color.white);
     }
 }
